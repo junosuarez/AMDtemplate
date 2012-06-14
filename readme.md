@@ -2,6 +2,13 @@
 
 A base project to start a new AMD app.
 
+## Build
+This project includes r.js, the RequireJS AMD optimizer. This will compile your modules and dependencies into a single file for production. You will need Node.js installed to run the optimizer. To build the project, run
+
+	> node r.js -o build/main.build.js
+
+Read more about [customizing your build](http://requirejs.org/docs/optimization.html).
+
 ## Included libs
 
  - [RequireJS 2.0.2](http://requirejs.org/) - AMD loader ([docs](http://requirejs.org/docs/api.html))
